@@ -18,6 +18,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    //修改了背景图片
+    self.view.backgroundColor = [UIColor blueColor];
     ImageView *imageCut = [[ImageView alloc] initWithImage:[UIImage imageNamed:@"cs.jpg"] cropFrame:CGRectMake(0, 200, self.view.frame.size.width, self.view.frame.size.width) limitScaleRatio:3.0 andFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height)];
     [self.view addSubview:imageCut];
 }
