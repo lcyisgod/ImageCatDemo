@@ -10,6 +10,9 @@
 
 @interface ImageView : UIView
 
-- (id)initWithImage:(UIImage *)originalImage cropFrame:(CGRect)cropFrame limitScaleRatio:(NSInteger)limitRatio andFrame:(CGRect)frame;
+- (id)initWithImage:(UIImage *)originalImage
+          cropFrame:(CGRect)cropFrame
+    limitScaleRatio:(NSInteger)limitRatio
+           andFrame:(CGRect)frame;
 
 @end
